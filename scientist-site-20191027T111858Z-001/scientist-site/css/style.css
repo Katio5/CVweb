@@ -1,0 +1,63 @@
+body{
+  background-color: #fffff0;
+  color: black;
+  font-family: 'Oranienbaum', serif;
+  font-size: 18px;
+}
+.img-fliud {
+  max-width: 100%;
+  height: auto;
+}
+h1{
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: #575eb3;
+  font-weight: bold;
+}
+.navbar{
+  background-color: #7db1ea;
+}
+.navbar-brand{
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+}
+.navbar a{
+  color: white !important; 
+}
+.navbar ul a:hover{
+  color: #575eb3 !important; 
+}
+.active a{
+  color: #575eb3 !important; 
+}
+.content li{
+  margin-bottom: 10px;
+}
+/*Для большого экрана*/
+@media (min-width: 768px) {
+  .navbar-brand{
+    position: absolute;
+    top: 50px;
+    padding: 30px;
+    background-color: #575eb3; 
+  }
+  .navbar{
+    height: 100vh;
+    z-index: 10;
+    position: fixed;
+    align-items: flex-start;
+    padding: 30px;
+    padding-top: 180px;
+}
+  #navbar{
+    font-size: 20px;
+  }
+  h1{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+}
+
+
+
+
